@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SetbackVisualizer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="797.033" Width="588.748">
     <Grid>
-        
+        <Canvas x:Name="mainCanvas" HorizontalAlignment="Left" Height="470" Margin="30,30,10,10"
+                 VerticalAlignment="Top" Width="470"/>
+        <TextBlock x:Name="textOutputBlock" HorizontalAlignment="Left" Margin="30,513,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="485"><Run Text="TextBlock"/><LineBreak/><Run Text="asdfasdfasdf"/></TextBlock>
+
     </Grid>
 </Window>
